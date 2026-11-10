@@ -1,0 +1,12 @@
+LTA HARMONY -- macOS INSTALL (optional manual GitHub Actions build)
+
+Extract the macOS artifact ZIP.
+Copy its VST3/LTA Harmony.vst3 bundle to ~/Library/Audio/Plug-Ins/VST3/
+Copy its AU/LTA Harmony.component bundle to ~/Library/Audio/Plug-Ins/Components/
+
+If macOS quarantines a build you trust, you may need to approve it in System Settings.
+These self-built binaries are not Apple Developer ID signed/notarised.
+AU compatibility and MIDI routing depend on the host. You can always save/export MIDI files.
+
+GitHub Actions' macOS runner availability depends on repository visibility, account,
+and GitHub quota. Keep the repository public if you want to avoid private-repo restrictions.

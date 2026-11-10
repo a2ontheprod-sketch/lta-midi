@@ -1,0 +1,21 @@
+LTA HARMONY -- WINDOWS VST3 INSTALL
+
+1. Unzip the GitHub Actions artifact: LTA-Harmony-Windows-VST3.zip.
+2. Inside you should find a folder named "LTA Harmony.vst3".
+   This is a PLUGIN BUNDLE FOLDER, not a file to run or double-click.
+3. Copy the complete "LTA Harmony.vst3" folder into:
+      C:\Program Files\Common Files\VST3\
+   Windows may request administrator approval. Keep the folder intact.
+4. Close FL Studio if it is already running.
+5. Open FL Studio > Options > Manage plugins > Find installed plugins.
+6. Find "LTA Harmony" in the plugin list and add it as an instrument / generator.
+7. Open it, pick a key, scale, emotion and style. Generate an idea.
+8. Start your DAW transport to hear its basic internal piano audition.
+9. Drag the CHORDS, TOPLINE or BASS MIDI pads onto the piano roll of another instrument,
+   or use SAVE .MID and import the exported MIDI into the instrument's piano roll.
+10. The project uses the DAW timeline for playback. Drag/export works even while stopped.
+
+IMPORTANT
+- The downloadable VST3 comes from GitHub Actions after compilation; the source ZIP is not a compiled VST3.
+- If dragging MIDI between plugin windows fails in FL Studio, use the SAVE .MID buttons and import MIDI.
+- To audition other sounds, use the exported MIDI on that sound's instrument; host MIDI routing varies.
